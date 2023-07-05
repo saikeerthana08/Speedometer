@@ -1,0 +1,65 @@
+/* Write your CSS here */
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bg-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 10px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  border-width: 0;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-size: 8px;
+  height: 20px;
+  width: 80px;
+}
+
+.button:hover {
+  cursor: pointer;
+  outline: none;
+}
+
+.accelerate {
+  background-color: #007bff;
+  margin-right: 20px;
+}
+.break {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.image {
+  width: 80%;
+}
