@@ -1,4 +1,4 @@
-In this project, I have built a **Speedometer**.
+In this project, I build a **Speedometer** app.
 
 ### Refer to the image below:
 
@@ -18,30 +18,21 @@ In this project, I have built a **Speedometer**.
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
+### Complete Instructions
 
 <details>
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
 - The speed should initially be 0mph
 
-  > Here mph means Miles per hour
+  > Here, mph means Miles per hour
 
 - When Accelerate button is clicked,
-  - If the speed is less than 200mph, the speed should be increased by 10mph
-  - If the speed is equal to 200mph, the speed should not be increased
+  - If the speed is less than 200mph, the speed is increased by 10mph
+  - If the speed is equal to 200mph, the speed is not increased
 - When Apply Brake button is clicked
   - If the speed is greater than 0mph, then the speed should be decreased by 10mph
   - If the speed is equal to 0mph, the speed should not be decreased
@@ -56,29 +47,6 @@ Use these files to complete the implementation:
 
 - `src/components/Speedometer/index.js`
 - `src/components/Speedometer/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the below cursor CSS property for buttons to set the type of mouse cursor, to show when the mouse pointer is over an element,
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below outline CSS property for buttons and input elements to remove the highlighting when the elements are clicked,
-
-  ```
-    outline: none;
-  ```
-
 </details>
 
 ### Resources
@@ -109,10 +77,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
